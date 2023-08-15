@@ -1,0 +1,22 @@
+.button {
+  margin: 5px;
+  cursor: pointer;
+  padding: 8px;
+  background-color: unset;
+  border: none;
+  border-radius: 8px;
+  min-width: 40px;
+  text-align: center;
+  min-height: 40px;
+  word-wrap: break-word;
+  color: #ffffff;
+}
+
+.button:hover {
+  background-color: #00a2ed;
+}
+
+.button--active {
+  background-color: #1cb7ff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 149, 248, 1);
+}

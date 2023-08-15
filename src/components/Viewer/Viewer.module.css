@@ -1,0 +1,32 @@
+.viewer {
+  width: 80%;
+  background-color: #2b2a33;
+  border-radius: 8px;
+  padding: 20px;
+  padding-top: 10px;
+  flex: 1;
+  height: 95vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.viewer::-webkit-scrollbar {
+  width: 4px;
+}
+
+.viewer::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #42414d;
+  border-radius: 10px;
+}
+
+.viewer::-webkit-scrollbar-thumb {
+  background: #00a2ed;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+  .viewer {
+    height: calc(100vh - 200px);
+    margin-top: -110px;
+  }
+}

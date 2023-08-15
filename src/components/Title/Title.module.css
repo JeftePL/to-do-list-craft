@@ -1,0 +1,14 @@
+.title {
+  border: none;
+  background-color: unset;
+  width: calc(100% - 50px);
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #00a2ed;
+  min-height: 40px;
+  word-wrap: break-word;
+  display: inline-block;
+  cursor: pointer;
+}

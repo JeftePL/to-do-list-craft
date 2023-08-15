@@ -1,0 +1,58 @@
+.list {
+  width: 100%;
+}
+
+.list__container {
+  display: flex;
+  align-items: center;
+}
+
+.list__title {
+  border: none;
+  background-color: unset;
+  width: calc(100% - 50px);
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #00a2ed;
+  min-height: 40px;
+  word-wrap: break-word;
+  display: inline-block;
+}
+
+.list__addItem {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.list__list__checkbox {
+  cursor: pointer;
+}
+
+.list__list__item {
+  border: none;
+  background-color: unset;
+  width: calc(100% - 60px);
+  min-height: 30px;
+  padding: 5px;
+  border-radius: 8px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.list__list__item--done {
+  text-decoration: line-through;
+  color: #00a2ed;
+}
+
+.list__list__item:focus,
+.list__list__item:focus-visible,
+.list__title:focus,
+.list__title:focus-visible {
+  border: 1px solid #00a2ed;
+  outline: none;
+}

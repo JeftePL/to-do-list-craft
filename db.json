@@ -1,0 +1,26 @@
+{
+  "lists": [
+    {
+      "id": "36be158c-ec94-47b1-875b-b31cde7b616c",
+      "name": "Shopping",
+      "items": [
+        { "id": "11f3c46f-a4d3-477f-a0ed-7ea9516c7f97", "name": "Milk", "done": true },
+        { "id": "f344b9be-5535-479c-8cda-f755c23c7dcd", "name": "Bread", "done": true },
+        { "id": "aa369080-ce17-48d4-87e0-b37b02ba71bf", "name": "Rice", "done": false },
+        { "id": "bcad89d4-c5f7-4846-8b88-1a55bc1eeae9", "name": "Beans", "done": false },
+        { "id": "089ef6a4-7c7e-4539-9778-ca72566df76d", "name": "Meat", "done": false }
+      ],
+      "view": true
+    },
+    {
+      "id": "43a6a488-f0d7-452c-966e-56b840266d4e",
+      "name": "Day",
+      "items": [
+        { "id": "49c1ec75-687e-4ae4-8fd3-41ef1702c622", "name": "Wake up at 8am", "done": true },
+        { "id": "e4bb24df-8aea-4bef-9659-b9f079987219", "name": "Breakfast at 8:30 am", "done": false },
+        { "id": "85c96d07-bcfa-4107-a549-ec9401d089d7", "name": "Work at 9am", "done": false }
+      ],
+      "view": false
+    }
+  ]
+}

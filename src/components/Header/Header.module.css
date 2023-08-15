@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.header__title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #00a2ed;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1350px) {
+  .header__title {
+    font-size: 25px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
