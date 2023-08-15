@@ -3,11 +3,14 @@ This project is a list of to-do lists, where it is possible to manage the tasks 
 Users can manage lists and search for items. Lists can be created, edited and deleted.\
 And within each list it is possible to manage its items by creating, editing, deleting them and also changing their status to completed or to-do.
 
+## Live Demo
+https://to-do-list-craft.vercel.app/
+
 ## Technology
 React and JavaScript
 
 ## CSS architecture
-Name pattern: BEM (Block Element Modifier)
+Name pattern: BEM (Block Element Modifier)\
 File pattern: CSS Modules
 
 ## State management
