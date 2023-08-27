@@ -25,10 +25,9 @@ The list context was split into a second context called ItemsContext to follow t
 ## Packages
 UUID to generate unique ids for lists and items\
 React Icons to use existing icons\
-JSON Server to Mock a REST API
 
 ## Server
-Fetch API to connect to mock API with JSON Server
+Fetch API to connect to Fake REST API with My JSON Server
 
 ## Installation
 
@@ -42,7 +41,6 @@ Clone the repository, access it and install the dependencies with npm:
 In the project repository:
 
 ```bash
-  npm run server
   npm start
 ```
 
@@ -70,9 +68,6 @@ Builds the app for production to the `build` folder.
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### `npm run server`
-Runs the JSON Server.
-
 ## Reference
 - [JavaScript] https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 - [React] https://react.dev/
@@ -81,4 +76,4 @@ Runs the JSON Server.
 - [CSS Modules] https://github.com/css-modules/css-modules
 - [UUID] https://www.npmjs.com/package/uuid
 - [React Icons] https://react-icons.github.io/react-icons
-- [JSON Server] https://www.npmjs.com/package/json-server
+- [Fake REST API] https://github.com/JeftePL/fake-rest-api

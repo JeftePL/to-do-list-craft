@@ -1,6 +1,6 @@
 async function fetchLists() {
   try {
-    const response = await fetch("http://localhost:3001/lists");
+    const response = await fetch("https://my-json-server.typicode.com/JeftePL/fake-rest-api/to-do-list-craft");
     if (!response.ok) {
       throw new Error('Failed to fetch data from the server');
     }
